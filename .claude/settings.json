@@ -1,0 +1,17 @@
+{
+  "includeFiles": [
+    "CLAUDE.md"
+  ],
+  "permissions": {
+    "allow": [
+      "Bash(python *)",
+      "Bash(pip *)",
+      "Bash(git status)",
+      "Bash(git log*)",
+      "Bash(git diff*)"
+    ],
+    "deny": [
+      "Bash(rm *)"
+    ]
+  }
+}
